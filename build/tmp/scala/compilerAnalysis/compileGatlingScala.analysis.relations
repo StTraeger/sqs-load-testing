@@ -1,0 +1,12 @@
+products:
+   C:\Users\strae\Desktop\load-testing-sample\src\gatling\scala\gatlingdemo\GatlingSimulation.scala -> C:\Users\strae\Desktop\load-testing-sample\build\classes\scala\gatling\gatlingdemo\GatlingSimulation.class
+binary dependencies:
+   C:\Users\strae\Desktop\load-testing-sample\src\gatling\scala\gatlingdemo\GatlingSimulation.scala -> C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar
+   C:\Users\strae\Desktop\load-testing-sample\src\gatling\scala\gatlingdemo\GatlingSimulation.scala -> C:\Users\strae\.gradle\caches\modules-2\files-2.1\io.gatling\gatling-commons\2.2.2\4f92ff0edec4c13b32c26058b4fcf8195b283142\gatling-commons-2.2.2.jar
+   C:\Users\strae\Desktop\load-testing-sample\src\gatling\scala\gatlingdemo\GatlingSimulation.scala -> C:\Users\strae\.gradle\caches\modules-2\files-2.1\io.gatling\gatling-core\2.2.2\f06b4510c0d0e4f40d6985a918a17a8c6025cab9\gatling-core-2.2.2.jar
+   C:\Users\strae\Desktop\load-testing-sample\src\gatling\scala\gatlingdemo\GatlingSimulation.scala -> C:\Users\strae\.gradle\caches\modules-2\files-2.1\io.gatling\gatling-http\2.2.2\fc069524e8d8cf57fd75d488d48019dcac080c8c\gatling-http-2.2.2.jar
+   C:\Users\strae\Desktop\load-testing-sample\src\gatling\scala\gatlingdemo\GatlingSimulation.scala -> C:\Users\strae\.gradle\caches\modules-2\files-2.1\org.scala-lang\scala-library\2.11.8\ddd5a8bced249bedd86fb4578a39b9fb71480573\scala-library-2.11.8.jar
+source dependencies:
+external dependencies:
+class names:
+   C:\Users\strae\Desktop\load-testing-sample\src\gatling\scala\gatlingdemo\GatlingSimulation.scala -> gatlingdemo.GatlingSimulation

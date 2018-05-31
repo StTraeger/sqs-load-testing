@@ -1,0 +1,10 @@
+{
+  "simulation": "gatlingdemo.GatlingSimulation",
+  "simulationId": "gatlingsimulation",
+  "start": 1526392447808,
+  "description": "",
+  "scenarios": ["Gatling Demo Test"],
+  "assertions": [
+
+  ]
+}

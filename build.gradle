@@ -1,0 +1,16 @@
+plugins {
+    id "com.github.lkishalmi.gatling" version "0.4.1"
+}
+
+repositories{
+    mavenCentral()
+}
+
+apply plugin: 'scala'
+
+dependencies {
+    compile 'org.scala-lang:scala-library:2.11.8'
+}
+
+group 'com.github.sttrae'
+version '1.0-SNAPSHOT'
