@@ -1,0 +1,10 @@
+{
+  "simulation": "gatlingdemo.GatlingSimulation",
+  "simulationId": "gatlingsimulation",
+  "start": 1528107820363,
+  "description": "",
+  "scenarios": ["Car Search"],
+  "assertions": [
+
+  ]
+}

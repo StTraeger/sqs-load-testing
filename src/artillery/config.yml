@@ -1,0 +1,17 @@
+config:
+  target: 'http://localhost:8080'
+  phases:
+    - duration: 30
+      arrivalRate: 10
+      rampTo: 50
+  payload:
+    - path: "../test/resources/cars.csv"
+      fields:
+        - "vin"
+
+scenarios:
+  - flow:
+    - get:
+        url: "/cars"
+    - get:
+        url: "/cars/{{ vin }}"

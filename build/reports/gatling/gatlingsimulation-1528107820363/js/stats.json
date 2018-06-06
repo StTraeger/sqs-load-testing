@@ -1,0 +1,473 @@
+{
+  "type": "GROUP",
+"name": "Global Information",
+"path": "",
+"pathFormatted": "group_missing-name-b06d1",
+"stats": {
+    "name": "Global Information",
+    "numberOfRequests": {
+        "total": 960,
+        "ok": 754,
+        "ko": 206
+    },
+    "minResponseTime": {
+        "total": 2,
+        "ok": 2,
+        "ko": 2
+    },
+    "maxResponseTime": {
+        "total": 478,
+        "ok": 478,
+        "ko": 25
+    },
+    "meanResponseTime": {
+        "total": 12,
+        "ok": 14,
+        "ko": 5
+    },
+    "standardDeviation": {
+        "total": 48,
+        "ok": 54,
+        "ko": 4
+    },
+    "percentiles1": {
+        "total": 5,
+        "ok": 5,
+        "ko": 4
+    },
+    "percentiles2": {
+        "total": 8,
+        "ok": 9,
+        "ko": 7
+    },
+    "percentiles3": {
+        "total": 19,
+        "ok": 23,
+        "ko": 17
+    },
+    "percentiles4": {
+        "total": 441,
+        "ok": 442,
+        "ko": 19
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 754,
+        "percentage": 79
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group4": {
+        "name": "failed",
+        "count": 206,
+        "percentage": 21
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 21.333333333333332,
+        "ok": 16.755555555555556,
+        "ko": 4.5777777777777775
+    }
+},
+"contents": {
+"req_get-all-8f8bb": {
+        "type": "REQUEST",
+        "name": "get_all",
+"path": "get_all",
+"pathFormatted": "req_get-all-8f8bb",
+"stats": {
+    "name": "get_all",
+    "numberOfRequests": {
+        "total": 60,
+        "ok": 60,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 4,
+        "ok": 4,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 478,
+        "ok": 478,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 91,
+        "ok": 91,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 170,
+        "ok": 170,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 9,
+        "ok": 9,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 15,
+        "ok": 15,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 453,
+        "ok": 453,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 473,
+        "ok": 473,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 60,
+        "percentage": 100
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 1.3333333333333333,
+        "ok": 1.3333333333333333,
+        "ko": 0
+    }
+}
+    },"req_get-car-by-vin--4bf4e": {
+        "type": "REQUEST",
+        "name": "Get Car by VIN 456123",
+"path": "Get Car by VIN 456123",
+"pathFormatted": "req_get-car-by-vin--4bf4e",
+"stats": {
+    "name": "Get Car by VIN 456123",
+    "numberOfRequests": {
+        "total": 232,
+        "ok": 232,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 2,
+        "ok": 2,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 88,
+        "ok": 88,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 8,
+        "ok": 8,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 11,
+        "ok": 11,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 5,
+        "ok": 5,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 8,
+        "ok": 8,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 23,
+        "ok": 23,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 76,
+        "ok": 76,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 232,
+        "percentage": 100
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 5.155555555555556,
+        "ok": 5.155555555555556,
+        "ko": 0
+    }
+}
+    },"req_get-car-by-vin--6c3f0": {
+        "type": "REQUEST",
+        "name": "Get Car by VIN 123456",
+"path": "Get Car by VIN 123456",
+"pathFormatted": "req_get-car-by-vin--6c3f0",
+"stats": {
+    "name": "Get Car by VIN 123456",
+    "numberOfRequests": {
+        "total": 236,
+        "ok": 236,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 2,
+        "ok": 2,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 91,
+        "ok": 91,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 8,
+        "ok": 8,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 10,
+        "ok": 10,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 5,
+        "ok": 5,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 8,
+        "ok": 8,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 18,
+        "ok": 18,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 70,
+        "ok": 70,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 236,
+        "percentage": 100
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 5.2444444444444445,
+        "ok": 5.2444444444444445,
+        "ko": 0
+    }
+}
+    },"req_get-car-by-vin--10744": {
+        "type": "REQUEST",
+        "name": "Get Car by VIN 654321",
+"path": "Get Car by VIN 654321",
+"pathFormatted": "req_get-car-by-vin--10744",
+"stats": {
+    "name": "Get Car by VIN 654321",
+    "numberOfRequests": {
+        "total": 226,
+        "ok": 226,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 2,
+        "ok": 2,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 91,
+        "ok": 91,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 7,
+        "ok": 7,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 9,
+        "ok": 9,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 5,
+        "ok": 5,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 8,
+        "ok": 8,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 18,
+        "ok": 18,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 63,
+        "ok": 63,
+        "ko": 0
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 226,
+        "percentage": 100
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group4": {
+        "name": "failed",
+        "count": 0,
+        "percentage": 0
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 5.022222222222222,
+        "ok": 5.022222222222222,
+        "ko": 0
+    }
+}
+    },"req_get-car-by-vin--6a48f": {
+        "type": "REQUEST",
+        "name": "Get Car by VIN 141451",
+"path": "Get Car by VIN 141451",
+"pathFormatted": "req_get-car-by-vin--6a48f",
+"stats": {
+    "name": "Get Car by VIN 141451",
+    "numberOfRequests": {
+        "total": 206,
+        "ok": 0,
+        "ko": 206
+    },
+    "minResponseTime": {
+        "total": 2,
+        "ok": 0,
+        "ko": 2
+    },
+    "maxResponseTime": {
+        "total": 25,
+        "ok": 0,
+        "ko": 25
+    },
+    "meanResponseTime": {
+        "total": 5,
+        "ok": 0,
+        "ko": 5
+    },
+    "standardDeviation": {
+        "total": 4,
+        "ok": 0,
+        "ko": 4
+    },
+    "percentiles1": {
+        "total": 4,
+        "ok": 0,
+        "ko": 4
+    },
+    "percentiles2": {
+        "total": 7,
+        "ok": 0,
+        "ko": 7
+    },
+    "percentiles3": {
+        "total": 17,
+        "ok": 0,
+        "ko": 17
+    },
+    "percentiles4": {
+        "total": 19,
+        "ok": 0,
+        "ko": 19
+    },
+    "group1": {
+        "name": "t < 800 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group2": {
+        "name": "800 ms < t < 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group3": {
+        "name": "t > 1200 ms",
+        "count": 0,
+        "percentage": 0
+    },
+    "group4": {
+        "name": "failed",
+        "count": 206,
+        "percentage": 100
+    },
+    "meanNumberOfRequestsPerSecond": {
+        "total": 4.5777777777777775,
+        "ok": 0,
+        "ko": 4.5777777777777775
+    }
+}
+    }
+}
+
+}

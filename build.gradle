@@ -14,3 +14,20 @@ dependencies {
 
 group 'com.github.sttrae'
 version '1.0-SNAPSHOT'
+
+task runArtillery(type:Exec){
+    description "Execute Artillery simulation"
+    commandLine "cmd", "/c", "artillery", "run", "./src/artillery/config.yml"
+}
+
+task runLocust(type:Exec){
+    description "Execute Locust simulation"
+    commandLine "cmd", "/c", "locust", "-f", "./src/locust/load-test.py", "--host=http://localhost:8080"
+}
+
+/*
+task runBench(type: Exec){
+    description "Execute Bench simulation"
+    commandLine "cmd", "/c", //ADD PARAMTERS HERE
+}
+ */
