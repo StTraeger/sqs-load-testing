@@ -2,7 +2,7 @@ plugins {
     id "com.github.lkishalmi.gatling" version "0.4.1"
 }
 
-repositories{
+repositories {
     mavenCentral()
 }
 
@@ -15,19 +15,28 @@ dependencies {
 group 'com.github.sttrae'
 version '1.0-SNAPSHOT'
 
-task runArtillery(type:Exec){
+task runArtillery(type: Exec) {
     description "Execute Artillery simulation"
-    commandLine "cmd", "/c", "artillery", "run", "./src/artillery/config.yml"
+    group "Load testing"
+    commandLine "cmd", "/c", "artillery", "run", "-o", "report.json", "./src/artillery/artillery-demo.yml"
 }
 
-task runLocust(type:Exec){
+task runLocust(type: Exec) {
     description "Execute Locust simulation"
-    commandLine "cmd", "/c", "locust", "-f", "./src/locust/load-test.py", "--host=http://localhost:8080"
+    group "Load testing"
+    commandLine "cmd", "/c", "locust", "-f", "./src/locust/locust-demo.py", "-n", "1000"
+}
+
+task runK6(type: Exec){
+    description "Execute k6 simulation"
+    group "Load testing"
+    commandLine "csplmd", "/c", "k6", "run", "./src/k6/k6-demo.js"
 }
 
 /*
 task runBench(type: Exec){
     description "Execute Bench simulation"
+    group "Load testing"
     commandLine "cmd", "/c", //ADD PARAMTERS HERE
 }
  */
