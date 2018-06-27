@@ -26,17 +26,3 @@ task runLocust(type: Exec) {
     group "Load testing"
     commandLine "cmd", "/c", "locust", "-f", "./src/locust/locust-demo.py", "-n", "1000"
 }
-
-task runK6(type: Exec){
-    description "Execute k6 simulation"
-    group "Load testing"
-    commandLine "csplmd", "/c", "k6", "run", "./src/k6/k6-demo.js"
-}
-
-/*
-task runBench(type: Exec){
-    description "Execute Bench simulation"
-    group "Load testing"
-    commandLine "cmd", "/c", //ADD PARAMTERS HERE
-}
- */
