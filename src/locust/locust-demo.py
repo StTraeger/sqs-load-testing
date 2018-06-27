@@ -1,5 +1,5 @@
 from locust import HttpLocust, TaskSet, task
-import csv, sys
+import csv, sys, os
 import locust.stats
 
 VINS = None
@@ -29,7 +29,7 @@ class WebsiteUser(HttpLocust):
         super(WebsiteUser, self).__init__()
         global VINS
         if (VINS == None):
-            with open(r'C:\Users\strae\Desktop\load-testing-sample\src\test\resources\cars.csv', 'r') as f:
+            with open(os.path.join(os.path.dirname(__file__), '../test/resources/cars.csv'), 'r') as f:
                 reader = csv.reader(f)
                 next(reader)
                 VINS = list(reader)
