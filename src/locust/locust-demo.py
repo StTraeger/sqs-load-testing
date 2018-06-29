@@ -1,9 +1,7 @@
 from locust import HttpLocust, TaskSet, task
 import csv, sys, os
-import locust.stats
 
 VINS = None
-locust.stats.CSV_STATS_INTERVAL_SEC = 5
 
 class UserBehavior(TaskSet):
     def getCars(self):
@@ -23,6 +21,8 @@ class UserBehavior(TaskSet):
 class WebsiteUser(HttpLocust):
     task_set = UserBehavior
     host = "http://localhost:8080"
+    min_wait = 1000
+    max_wait = 10000
     socket = None
 
     def __init__(self):
