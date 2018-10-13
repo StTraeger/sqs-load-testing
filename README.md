@@ -2,13 +2,13 @@
 
 ## Intro
 As project for the course 'Software Qualittässicherung' at the University of Applied Sciences Rosenheim i wrote a simple load testing project to compare some Open-Source tools.
-The candidates for the comparison are:
+The candidates for the comparison were:
 - Gatling (Scala based) see: http://gatling.io
 - Locust (Python based) see: http://locust.io
 - Artillery (Yaml based) see: http://artillery.io
 
 ## Testscenario
-The scenario which i have chosen for the comparison is quite simple: It will start with initial users and executes a ramp-up to 50 users in 30 seconds. Every user will fire 5 requests:
+Start with initial users and executes a ramp-up to 50 users in 30 seconds. Every user will execute 5 requests:
 - 1x against the endpoint GET '/cars/'
 - 4x against the endpoint GET '/cars/{vin}'
 
